@@ -5,11 +5,11 @@ This project analyzes $12.6M in global sales data to identify key drivers of pro
 
 ## 📊 Dashboards
 ### Sales Overview
-![Sales Overview](Overview_Dashboard.png)
+![Sales Overview](images/Overview_Dashboard.png)
 *Key Insight:* Steady growth from 2011-2014 with Central region leading in volume.
 
 ### Profit Analysis
-![Profit Analysis](Profit_Analysis.png)
+![Profit Analysis](images/Profit_Analysis.png)
 *Key Insight:* Canada achieves the highest profit margin (26.6%), while Central focuses on high-volume, lower-margin sales.
 
 ## 🛠️ Technical Highlights
