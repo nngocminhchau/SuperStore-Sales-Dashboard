@@ -1,24 +1,92 @@
-# SuperStore Sales & Profitability Analysis (Power BI)
+# SuperStore Sales Dashboard (Power BI)
 
-## 📌 Project Overview
-This project analyzes $12.6M in global sales data to identify key drivers of profitability and regional performance. 
+## 📌 What I built
+A Power BI dashboard analyzing 4 years of sales data (2011-2014). The dataset has ~$12.6M in total sales across multiple regions.
 
 ![Interactive Dashboard Demo](images/dashboard_demo.gif)
 
 ## 📊 Dashboards
 ### Sales Overview
 ![Sales Overview](images/overview_dashboard.png)
-*Key Insight:* Steady growth from 2011-2014 with Central region leading in volume.
+
+- KPI cards: Total Sales, Total Profit, Profit Margin
+- Sales trend line chart (2011-2014)
+- Sales by region bar chart
+- Year slicer for filtering
 
 ### Profit Analysis
 ![Profit Analysis](images/profit_analysis.png)
-*Key Insight:* Canada achieves the highest profit margin (26.6%), while Central focuses on high-volume, lower-margin sales.
 
-## 🛠️ Technical Highlights
-* **DAX Measures:** Developed custom measures for Profit Margin % using the `DIVIDE` function to ensure data accuracy at aggregate levels.
-* **Data Modeling:** Cleaned and transformed raw CSV data using Power Query.
-* **Interactive Features:** Implemented dynamic slicers and page navigation for an executive-user experience.
+- Sales by region
+- Profit margin by region
 
-## 📂 How to use
-1. Download the `SuperStore_Sales_Dashboard.pbix` file.
-2. Open in Power BI Desktop to interact with the full dataset.
+---
+
+## Key things I found
+
+| Finding | What it means |
+|---------|----------------|
+| Sales grew from $2.3M (2011) to $4.3M (2014) | Steady growth over 4 years |
+| Central region has highest sales ($2.8M in 2014) | Volume leader |
+| Canada has highest profit margin (26.6%) | Most efficient region |
+| Peak sales shifted from Nov 2013 to Apr 2014 | Interesting pattern, needs investigating further |
+
+---
+
+## How I built it
+
+| Step | Tool/Method |
+|------|-------------|
+| Data cleaning | Power Query (removed duplicates, fixed data types) |
+| Calculations | DAX measures for profit margin |
+| Interactivity | Year slicer, page navigation buttons |
+| Formatting | Changed regional settings for decimal formatting ($2.3M not $2,3M) |
+
+---
+
+## Files in this repo
+
+| File | What it is |
+|------|-------------|
+| `SuperStore_Sales_Dashboard.pbix` | Power BI file (download to interact) |
+| `images/` | Screenshots and demo GIF |
+| `README.md` | This file |
+
+---
+
+## How to use
+
+1. Download `SuperStore_Sales_Dashboard.pbix`
+2. Open with Power BI Desktop
+3. Use year slicer and buttons
+
+---
+
+## Dataset
+
+Source: Kaggle SuperStore Sales Analytics Dataset (simulated retail data)
+
+| Field | Description |
+|-------|-------------|
+| `order_id` | Unique transaction ID |
+| `segment` | Consumer / Corporate / Home Office |
+| `market / region` | Geographic grouping |
+| `category` | Product type (Technology, Furniture, Office Supplies) |
+| `sales` | Revenue per order |
+| `profit` | Net earnings per order |
+
+---
+
+## What I'd do next
+
+- Add SQL queries to practice data extraction
+- Build a Python version of this analysis (Pandas + Matplotlib)
+- Try forecasting future sales using time series
+
+---
+
+## Author
+
+Ngoc Minh Chau Nguyen — 2nd year Data Analytics student @ University of Waikato
+
+[GitHub](https://github.com/[nngocminhchau]) | [LinkedIn](https://linkedin.com/in/[yourusername])
