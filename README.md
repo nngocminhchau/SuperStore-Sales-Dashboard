@@ -89,4 +89,4 @@ Source: Kaggle SuperStore Sales Analytics Dataset (simulated retail data)
 
 Ngoc Minh Chau Nguyen — 2nd year Data Analytics student @ University of Waikato
 
-[GitHub](https://github.com/nngocminhchau) | [LinkedIn](https://www.linkedin.com/in/ngoc-minh-chau-nguyen-3a4a723ba/)
+[GitHub](https://github.com/nngocminhchau) | [LinkedIn](https://www.linkedin.com/in/ngocminhchaunguyen0103/)
