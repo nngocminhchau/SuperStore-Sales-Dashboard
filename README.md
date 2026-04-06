@@ -3,6 +3,8 @@
 ## 📌 Project Overview
 This project analyzes $12.6M in global sales data to identify key drivers of profitability and regional performance. 
 
+![Interactive Dashboard Demo](images/dashboard_demo.gif)
+
 ## 📊 Dashboards
 ### Sales Overview
 ![Sales Overview](images/overview_dashboard.png)
